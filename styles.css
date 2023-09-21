@@ -32,7 +32,14 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    max-width: 800px
+    max-width: 800px;
+}
+
+.last-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .skills img {
@@ -46,5 +53,6 @@
 }
 
 .skills img:nth-child(12) {
+    margin-left: 23px;
     width: 55px;
 }
