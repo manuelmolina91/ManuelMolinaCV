@@ -1,0 +1,47 @@
+.habilidades h2 {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+}
+
+.logos {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.logos img {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    transition: transform 0.2s;
+}
+
+.logos img:hover {
+    transform: scale(1.2);
+}
+
+.logo1 img {
+    width: 65px;
+    margin-left: 18px;
+}
+
+.logo2 img {
+    width: 130px;
+    margin-right: 50px;
+}
+
+.habilidades h2 {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+}
+
+.logos .logo {
+    width: 100px;
+    transition: transform 0.2s;
+    margin: 10px; /* Agregamos margen para espaciar las imágenes */
+}
