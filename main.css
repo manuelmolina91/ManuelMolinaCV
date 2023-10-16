@@ -1,4 +1,4 @@
-body {
+body, html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,31 +8,10 @@ body {
     scroll-behavior: smooth;
 }
 
-/* .skills {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    max-width: 800px;
-}
-
-.last-row {
+.center-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    min-height: 100vh;
 }
-
-.skills img {
-    align-items: center;
-    width: 100px;
-    transition: transform 0.2s;
-}
-
-.skills img:hover {
-    transform: scale(1.2);
-}
-
-.skills img:nth-child(12) {
-    margin-left: 23px;
-    width: 55px;
-} */
