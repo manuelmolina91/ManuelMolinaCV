@@ -1,4 +1,4 @@
-.navbar nav {
+/* .navbar nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +6,41 @@
     overflow: hidden;
     text-align: center;
     height: 3.5em;
+}
+
+.navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+} */
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #111;
+    overflow: hidden;
+    text-align: center;
+    height: 3.5em;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajustar la altura al 100% para ocupar toda la altura de la barra de navegación */
 }
 
 .navbar a {
