@@ -29,18 +29,12 @@
 }
 
 .logo2 img {
-    width: 130px;
+    width: 140px;
     margin-right: 50px;
-}
-
-.habilidades h2 {
-    font-size: 3em;
-    text-align: center;
-    color: black;
 }
 
 .logos .logo {
     width: 100px;
     transition: transform 0.2s;
-    margin: 10px; /* Agregamos margen para espaciar las imágenes */
+    margin: 10px;
 }
