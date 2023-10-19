@@ -1,4 +1,4 @@
-/* .estudios {}
+/*
 
 h2 {
     font-size: 3em;
@@ -86,8 +86,18 @@ h2 {
     align-items: center;
 } */
 
-.estudios {
+
+
+/* .estudios {
+    display: flex;
     text-align: center;
+}
+
+.estudios p {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
 }
 
 .estudios h2 {
@@ -102,10 +112,182 @@ h2 {
     margin: 20px 0;
 }
 
+.estudios1 img:hover {
+    transform: scale(1.2);
+}
+
+.estudios2 img:hover {
+    transform: scale(1.2);
+}
+
 .estudios1 img {
     width: 150px;
 }
 
 .estudios2 img {
     width: 80px;
+} */
+
+
+/* #estudios h2{
+    font-size: 3em;
+}
+
+
+.title {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+
+main .estudios-realizados{
+    text-align: center;
+}
+
+main .estudios-realizados p{
+
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+    
+}
+
+
+main .estudios-realizados1 img{
+    width: 80px;
+    margin-left: 100px;
+}
+
+main .estudios-realizados3 img{
+    width: 150px;
+    margin-right: 50px;
+}
+
+.estudios-realizados1,
+.estudios-realizados3 {
+    margin: 5px;
+    align-self: flex-start; /* Alinea las imágenes en la parte superior del contenedor
+} */
+
+
+
+
+
+
+/* Tablets en horizonal y escritorios normales */
+
+
+
+/* @media (min-width:1024px){
+
+
+    #estudios h2{
+
+        font-size: 3em;
+        color: black;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+
+
+    main .estudios-realizados{
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 40px 0 40px;
+       
+
+    }
+
+
+
+    .estudios-realizados1{
+        margin: 5px;
+    }
+
+    .estudios-realizados3{
+        margin: 5px;
+    }
+
+} */
+
+
+
+
+
+
+#estudios h2 {
+    font-size: 3em;
+}
+
+.title {
+    font-size: 1em;
+    text-align: center;
+}
+
+main .estudios-realizados {
+    text-align: center;
+}
+
+
+main .estudios-realizados1 img{
+    width: 150px;
+    margin-left: 82px;
+}
+
+main .estudios-realizados3 img{
+    width: 150px;
+    margin-right: 15px;
+}
+
+.estudios-realizados3 p{
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.estudios-realizados1 p{
+    font-size: 1.5em;
+    margin-left: 140px;
+    padding: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.estudios-realizados1 img:hover{
+    transform: scale(1.2);
+}
+
+.estudios-realizados3 img:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Tablets en horizontal y escritorios normales */
+@media (min-width: 1024px) {
+    #estudios h2 {
+        font-size: 3em;
+        color: black;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    main .estudios-realizados {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 40px 0 40px;
+    }
+
+    .imagen-parr {
+        margin: 5px;
+    }
 }
