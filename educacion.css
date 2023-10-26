@@ -221,6 +221,9 @@ main .estudios-realizados3 img{
 
 
 
+#estudiosTotal {
+    margin-bottom: 100px;
+}
 
 #estudios h2 {
     font-size: 3em;
@@ -238,7 +241,7 @@ main .estudios-realizados {
 
 main .estudios-realizados1 img{
     width: 150px;
-    margin-left: 82px;
+    margin-left: 120px;
 }
 
 main .estudios-realizados3 img{
