@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Ajustar la altura al 100% para ocupar toda la altura de la barra de navegación */
+    height: 100%;
 }
 
 .navbar a {
