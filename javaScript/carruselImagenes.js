@@ -1,23 +1,23 @@
 const imagenes = [
     {
-         "url": "assets/Proyectos Bootcamp/4xcRlfHZPT.jpg",
-         "nombre": "Proyecto 01",
-         "descripción": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas nam debitis ratione."
+         "url": "assets/Proyectos Bootcamp/mvcDG11HOT.png",
+         "nombre": "Tecnologías y Herramientas",
+         "descripción": "HTML, CSS, JavaScript, Firebase, GitHub"
     },
     {
-        "url": "assets/Proyectos Bootcamp/mvcDG11HOT.png",
-        "nombre": "API New York Time",
-        "descripción": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas nam debitis ratione."
+        "url": "assets/Proyectos Bootcamp/VVe3uqQfOs.png",
+        "nombre": "Tecnologías y Herramientas",
+        "descripción": "HTML, CSS, JavaScript, TypeScript, React, Docker Compose, MongoDB, Styled Components, Node, GitHub"
     },
     {
-        "url": "assets/Proyectos Bootcamp/6f5eXqhrsS.png",
-        "nombre": "API New York Time",
-        "descripción": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas nam debitis ratione."
+        "url": "assets/Proyectos Bootcamp/8CjPdV0l2f.png",
+        "nombre": "Tecnologías y Herramientas",
+        "descripción": "HTML, CSS, JavaScript, TypeScript, React, Docker Compose, PostgreSQL, Styled Components, Node, GitHub"
     },
     {
-        "url": "assets/Proyectos Bootcamp/Cp2fjyPcED.png",
-        "nombre": "API New York Time",
-        "descripción": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptas nam debitis ratione."
+        "url": "assets/Proyectos Bootcamp/jpZvItl79C.png",
+        "nombre": "Tecnologías y Herramientas",
+        "descripción": "HTML, CSS, JavaScript, TypeScript, React, Docker Compose, PostgreSQL, MUI, Styled Components, Node, GitHub"
     }
 ]
 
@@ -71,7 +71,7 @@ function posicionCarrusel() {
     puntos.innerHTML = ""
     for (let i = 0; i <imagenes.length; i++){
         if(i == actual) {
-            puntos.innerHTML += '<p class="bold>.<p>'
+            puntos.innerHTML += '<p class="bold">.<p>'
         }
         else{
             puntos.innerHTML += '<p>.</p>'
