@@ -3,25 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manuel Molina - Full Stack Web Developer</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="foto.css">
-    <link rel="stylesheet" href="sobreMi.css">
-    <link rel="stylesheet" href="educacion.css">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="softSkills.css">
-    <link rel="stylesheet" href="proyectosBootcamp.css">
-    <link rel="stylesheet" href="proyectos.css">
-    <link rel="stylesheet" href="botonCorreo.css">
-    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/foto.css">
+    <link rel="stylesheet" href="styles/sobreMi.css">
+    <link rel="stylesheet" href="styles/educacion.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/softSkills.css">
+    <link rel="stylesheet" href="styles/proyectosBootcamp.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/botonCorreo.css">
 </head>
 <body>
 
-    <div class="center-container">
-
-        <div class="navbar">
-            <nav>
+        <nav class="navbar">
+            <div class="nav_items" id="_items">
                 <a href="#sobremi">Sobre mí</a>
                 <a href="#educacion">Educación</a>
                 <a href="#proyectos">Proyectos</a>
@@ -29,17 +25,22 @@
                 <a href="#softkills">Soft Skills</a>
                 <a href="#proyectosbootCamp">Proyectos BootCamp</a>
                 <a href="#contactame">Contáctame</a>
-            </nav>
-        </div>
+            </div>
+            <div class="nav_toggle" id="_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
 
         <div class="MainContainer">
             <div class="PictureContainer">
                 <div class="Picture">
-                    <img src="assets/009.jpg" alt="Manuel Picture" class="Picture">
+                    <img src="assets/009.jpg" class="Picture">
                 </div>
             </div>
             <div class="NameContainer">
-                    <h1 class="Name">Manuel Molina Ramírez</h1>
+                    <h2 class="Name">Manuel Molina Ramírez</h2>
             </div>
             <div class="StudiesContainer">
                     <h2 class="StudiesTitles">Full Stack Developer</h2>
@@ -52,12 +53,13 @@
                 tecnologías de front-end como <strong>React, NextJS, HTML, CSS y JavaScript, además de habilidades en el uso de tecnologías de
                 back-end como NodeJS, Prisma, MongoDB y Postgres.</strong> También tengo experiencia en el manejo de <strong> 
                 TypeScript, Firebase, Prisma, Docker y Git.</strong>
-            </p>
-            <p>Además de mi experiencia en desarrollo, también poseo una <strong>sólida experiencia trabajando de cara al 
-                público</strong> y en roles donde la interacción con clientes era esencial. He desempeñado funciones tanto en ventas 
-                como en atención al cliente, y he trabajado como operario en el supermercado Lidl, donde adquirí habilidades valiosas 
-                en la <strong>resolución de problemas</strong> y la <strong>satisfacción del cliente</strong>. Estoy acostumbrado a 
-                tratar con personas y a trabajar en equipo para lograr los objetivos establecidos.</p>
+            </p> <br>
+            <p>Además de mi experiencia en roles orientados al público, tanto en ventas como en atención al cliente, he decidido enfocarme en mi pasión 
+                por el desarrollo de software. Aunque he trabajado en entornos donde la interacción con clientes era esencial, mi verdadero interés y fortaleza 
+                se encuentran en el ámbito de la <strong>programación</strong> y el <strong>desarrollo de aplicaciones</strong>.</p>
+                <p>Estoy emocionado por la oportunidad de demostrar mis habilidades como desarrollador. Mi experiencia previa me ha proporcionado valiosas habilidades
+                en la <strong>resolución de problemas</strong> y la <strong>satisfacción del cliente</strong>, las cuales complementaré con mis conocimientos 
+                técnicos. Estoy listo para aportar de manera significativa a proyectos desafiantes y aprender continuamente en este emocionante campo.</p> <br>
             <p>Me considero un entusiasta de la adquisición constante de nuevas tecnologías y frameworks. Mi <strong>destreza en la 
                 resolución de problemas</strong> y mi <strong>enfoque en la satisfacción del cliente</strong> son aspectos destacados 
                 en mi carrera. Me encanta enfrentar proyectos desafiantes y encontrar <strong>soluciones creativas que beneficien a 
@@ -66,41 +68,33 @@
                 al servicio de la industria del desarrollo.</p>
         </div>
 
-            <main id="estudiosTotal">
+        <main id="educacion">
         
-              <div id="estudios">
-                <div class="title">
-                  <h2>Educación</h2>
-                </div>
-        
-                <div class="estudios-realizados">
-        
-                  <div class="estudios-realizados3">
-        
-                    <img src="assets/estudios/Universal_(120).jpg" alt="">
-                    <p><strong>BootCamp Full Stack Developer.</strong><br>The Bridge School.</p>
-                    <p>(October 2022 - April 2023)</p>
-        
-                  </div>
-        
-        
-                  <div class="estudios-realizados1">
-                    <img src="assets/estudios/pngegg.png" alt="">
-                    <p><strong>Operaciones con Tecnologías <br> Habilitadoras Digitales</strong><br>Trabajamos en Digital. Cepyme - 30hr</p>
-                    <p>(Septiembre 2023 - Octubre 2023)</p>
-                  </div>
-        
-        
-                </div>
-        
+            <div id="estudios">
+              <div class="title">
+                <h2>Educación</h2>
               </div>
-        
-            </main>
-
-        <div id="proyectos" class="section">
-            <h2>Proyectos</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias adipisci odit rem sapiente optio facere suscipit ex temporibus. Consectetur error odio, ab ex debitis voluptatem fuga minima repellat? Ullam, voluptatem?</p>
-        </div>
+      
+              <div class="estudios-realizados">
+      
+                <div class="estudios-realizados3">
+      
+                  <img src="assets/estudios/Universal_(120).jpg" alt="">
+                  <p><strong>BootCamp Full Stack Developer.</strong><br>The Bridge School.</p>
+                  <p>(October 2022 - April 2023)</p>
+      
+                </div>
+      
+      
+                <div class="estudios-realizados1">
+                  <img src="assets/estudios/pngegg.png" alt="">
+                  <p><strong>Operaciones con Tecnologías <br> Habilitadoras Digitales</strong><br>Trabajamos en Digital. Cepyme - 30hr</p>
+                  <p>(Septiembre 2023 - Octubre 2023)</p>
+                </div>
+              </div>
+            </div>
+      
+        </main>
 
         <section class="habilidades">
 
@@ -154,7 +148,7 @@
                     </div>
                 </div>
             </div>
-
+    
         </section>
 
         <section class="SoftSkills">
@@ -188,12 +182,12 @@
                     </div>
                 </div>
             </div>
-
+    
         </section>
 
         <div id="proyectosbootCamp" class="section">
             <h2>Proyectos BootCamp</h2>
-
+    
                 <div class="carrusel">
                     <div class="atras">
                         <img id="atras" src="assets/MingcuteArrowsLeftLine.png" alt="atras" loading="lazy">
@@ -216,12 +210,13 @@
             
                 <div class="puntos" id="puntos"></div>
             </div>
+    
 
+        
+
+        <div id="contactame" class="section">
+            <h2>Contáctame</h2>
         </div>
-
-        <div id="contactame" class="section"></div>
-        <h2>Contáctame</h2>
-
         <footer>
             <div class="footer">
 
@@ -244,10 +239,9 @@
             </div>
         </footer>
 
-    </div>
-
-    <script src="javaScript/carruselImagenes.js"></script>
-    <script src="javaScript/correo.js"></script>
+        <script src="javascript/menuHamburguesa.js"></script>
+        <script src="javascript/carruselImagenes.js"></script>
+        <script src="javascript/correo.js"></script>
 
 </body>
 </html>
