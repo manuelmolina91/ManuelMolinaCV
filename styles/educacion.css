@@ -52,7 +52,7 @@ strong {
 
 
 /* Tablets en horizontal y escritorios normales */
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     #estudios h2 {
         font-size: 3em;
         color: black;
@@ -69,5 +69,56 @@ strong {
 
     .imagen-parr {
         margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    #estudios h2 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    main .estudios-realizados {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 40px 0 40px;
+    }
+
+    .estudios-realizados1 {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    #estudios {
+        margin-bottom: 80px;
+    }
+
+    #estudios h2 {
+        font-size: 2.5em;
+        margin-bottom: 100px;
+        margin-top: 0.5em;
+        margin-left: 140px;
+    }
+
+    main .estudios-realizados {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 40px 0 40px;
+    }
+
+    .estudios-realizados3 {
+        margin-left: 170px;
+    }
+
+    .estudios-realizados1 p {
+        margin-left: 110px;
+    }
+
+    .estudios-realizados3 p {
+        margin-left: 10px;
     }
 }

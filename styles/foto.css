@@ -27,6 +27,11 @@
     margin-bottom: -30px;
 }
 
+.StudiesContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .Name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
@@ -35,4 +40,19 @@
 
 .Picture img:hover{
     transform: scale(1.1);
+}
+
+@media (max-width: 320px) {
+    .PictureContainer {
+        margin-left: 150px;
+    }
+    .NameContainer .Name {
+        display: block;
+        white-space: nowrap;
+        margin-left: 155px;
+    }
+    .StudiesContainer .StudiesTitles {
+        margin-left: 150px;
+        white-space: nowrap;
+    }
 }
