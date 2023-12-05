@@ -1,124 +1,49 @@
-#estudiosTotal {
-    margin-bottom: 100px;
-}
-
-#estudios h2 {
+#educacion h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
+    margin-bottom: 100px;
+    margin-top: 0;
 }
 
-.title {
-    font-size: 1em;
+#educacion p {
+    font-size: 25px;
+}
+
+.estudios-realizados img {
+    max-width: 30%;
+    height: auto;
+}
+
+#educacion {
+    width: 100%;
+    background-color: #2b6462;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 }
 
-main .estudios-realizados {
-    text-align: center;
+#educacion .estudios-realizados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-
-main .estudios-realizados1 img{
-    width: 150px;
-    margin-left: 120px;
+.estudios-realizados .estudios-realizados3,
+.estudios-realizados .estudios-realizados1 {
+    width: 48%;
+    margin: 10px;
 }
 
-main .estudios-realizados3 img{
-    width: 150px;
-    margin-right: 15px;
-}
-
-.estudios-realizados3 p{
-    font-size: 1.5em;
-    margin: 20px;
-}
-
-.estudios-realizados1 p{
-    font-size: 1.5em;
-    margin-left: 140px;
-    padding: 0;
-}
-
-strong {
-    font-weight: bold;
-}
-
-.estudios-realizados1 img:hover{
+.estudios-realizados img:hover {
     transform: scale(1.2);
 }
 
-.estudios-realizados3 img:hover{
-    transform: scale(1.2);
-}
-
-
-
-/* Tablets en horizontal y escritorios normales */
-@media (min-width: 768px) {
-    #estudios h2 {
-        font-size: 3em;
-        color: black;
-        margin-bottom: 1em;
-        margin-top: 1em;
-    }
-
-    main .estudios-realizados {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        margin: 0 40px 0 40px;
-    }
-
-    .imagen-parr {
-        margin: 5px;
-    }
-}
-
+/* Media query para pantallas de 480px o menos */
 @media (max-width: 480px) {
-    #estudios h2 {
-        font-size: 2.5em;
-        margin-bottom: 0.5em;
-        margin-top: 0.5em;
-    }
-
-    main .estudios-realizados {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        margin: 0 40px 0 40px;
-    }
-
-    .estudios-realizados1 {
-        margin-right: 30px;
-    }
-}
-
-@media (max-width: 320px) {
-    #estudios {
-        margin-bottom: 80px;
-    }
-
-    #estudios h2 {
-        font-size: 2.5em;
-        margin-bottom: 100px;
-        margin-top: 0.5em;
-        margin-left: 140px;
-    }
-
-    main .estudios-realizados {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        margin: 0 40px 0 40px;
-    }
-
-    .estudios-realizados3 {
-        margin-left: 170px;
-    }
-
-    .estudios-realizados1 p {
-        margin-left: 110px;
-    }
-
-    .estudios-realizados3 p {
-        margin-left: 10px;
+    .estudios-realizados .estudios-realizados3,
+    .estudios-realizados .estudios-realizados1 {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
