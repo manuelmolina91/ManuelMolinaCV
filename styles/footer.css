@@ -1,98 +1,54 @@
-h2 {
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
 footer {
-    width: 100%;
+    background-color: #111;
 }
 
-footer .footer {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
+#contactame h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 100px;
 }
 
-footer p {
+#redesSociales p {
     color: white;
+}
+
+.footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-
-
-.footer .linkedin {
-    height: 60px;
-    margin-left: 22px;
-}
-
-.footer .github {
-    height: 85px;
-}
-
-.footer .linkedin, .footer .github {
-    vertical-align: middle;
+    text-align: center;
 }
 
 footer a {
     color: transparent;
 }
 
+.linkedin,
+.github {
+    width: 50px;
+    margin: 10px;
+}
+
+/* Añade un espacio entre las imágenes */
+.linkedin:not(:last-child),
+.github:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-    h2 {
-        font-size: 2em;
-        margin-bottom: 30px;
+    #redesSociales {
+        flex-direction: row; /* Cambia a fila en lugar de columna */
     }
 
-    footer .footer {
-        flex-direction: column;
-        align-items: center;
+    .linkedin,
+    .github {
+        margin: 5px;
     }
 
-    footer {
-        width: 100%;
-    }
-
-    footer p {
-        margin-top: 10px;
-    }
-
-    .footer .linkedin,
-    .footer .github {
-        margin: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    h2 {
-        font-size: 2em;
-        margin-bottom: 30px;
-    }
-
-    footer .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer {
-        width: 480px;
-    }
-
-    footer p {
-        margin-top: 10px;
-    }
-
-    .footer .linkedin,
-    .footer .github {
-        margin: 10px;
-    }
-}
-
-@media (max-width: 320px) {
-    #contactame h2 {
-        margin-left: 140px;
+    /* Elimina el espacio inferior en las imágenes en pantallas más pequeñas */
+    .linkedin:last-child,
+    .github:last-child {
+        margin-bottom: 0;
     }
 }

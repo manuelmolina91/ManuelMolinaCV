@@ -1,0 +1,50 @@
+.habilidades {
+    margin-bottom: 100px;
+}
+
+.habilidades h2 {
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+
+#technologies {
+    text-align: center;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center;
+}
+
+.logo {
+    margin: 0;
+    width: 100%; /* Ocupar todo el ancho disponible en cada celda del grid */
+}
+
+.logo img {
+    width: 80px;
+    height: 80px; /* Mantener la proporción original de la imagen */
+}
+
+.logo1 img {
+    width: 65px;
+    margin-left: 18px;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo {
+        width: 100%;
+    }
+
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(3, 5fr);
+    }
+}
